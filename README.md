@@ -42,3 +42,5 @@ Claude normal chat can install plugins, but hooks run in Claude Cowork.
 The hook script forwards Claude hook payloads to the local Masko Desktop listener on your machine. It does not include any Masko secrets or API keys.
 
 If Masko Desktop is not installed or the local hook sender is missing, the hook exits without doing anything.
+
+`PermissionRequest` is intentionally synchronous so Masko can test returning an allow or deny decision to Cowork. All other hooks run asynchronously.

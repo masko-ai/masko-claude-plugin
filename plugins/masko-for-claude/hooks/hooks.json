@@ -51,7 +51,6 @@
             "type": "command",
             "command": "bash",
             "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
             "timeout": 5
           }
         ]

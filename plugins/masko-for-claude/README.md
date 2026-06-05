@@ -31,3 +31,6 @@ $HOME/.masko-desktop/hooks/hook-sender --source claude-cowork
 ```
 
 If Masko Desktop is not installed, the hook exits successfully without blocking Claude Cowork.
+
+`PermissionRequest` is intentionally synchronous so Masko can test returning an
+allow or deny decision to Cowork. All other hooks run asynchronously.
