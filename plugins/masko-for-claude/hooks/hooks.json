@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -30,7 +30,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -42,7 +42,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork"
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'"
           }
         ]
       }
@@ -53,7 +53,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -65,7 +65,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -77,7 +77,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -89,7 +89,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -101,7 +101,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
@@ -113,7 +113,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
             "async": true
           }
         ]
