@@ -1,5 +1,4 @@
 {
-  "description": "Forward high-signal Claude Cowork lifecycle hooks to Masko Desktop.",
   "hooks": {
     "SessionStart": [
       {
@@ -7,10 +6,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
           }
         ]
       }
@@ -21,10 +18,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
           }
         ]
       }
@@ -35,10 +30,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
           }
         ]
       }
@@ -49,9 +42,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "timeout": 5
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork"
           }
         ]
       }
@@ -62,24 +53,56 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
           }
         ]
       }
     ],
-    "PostToolUseFailure": [
+    "Notification": [
       {
         "matcher": "",
         "hooks": [
           {
             "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
           }
         ]
       }
@@ -90,66 +113,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
-          }
-        ]
-      }
-    ],
-    "StopFailure": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
-          }
-        ]
-      }
-    ],
-    "PreCompact": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
-          }
-        ]
-      }
-    ],
-    "PostCompact": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
-          }
-        ]
-      }
-    ],
-    "TaskCompleted": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash",
-            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/masko-hook.sh"],
-            "async": true,
-            "timeout": 5
+            "command": "'/Users/paulroussel/.masko-desktop/hooks/hook-sender' --source claude-cowork",
+            "async": true
           }
         ]
       }
