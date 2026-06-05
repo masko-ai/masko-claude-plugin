@@ -1,7 +1,7 @@
 {
   "name": "masko-for-claude",
   "displayName": "Masko for Claude",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Forwards Claude Cowork lifecycle hooks to Masko Desktop so mascots can react while you work.",
   "author": {
     "name": "Masko",
