@@ -12,7 +12,15 @@ This plugin forwards selected Claude Cowork lifecycle hooks to Masko Desktop so 
 
 - `SessionStart`
 - `UserPromptSubmit`
+- `PreToolUse`
+- `PermissionRequest`
+- `PostToolUse`
+- `PostToolUseFailure`
 - `Stop`
+- `StopFailure`
+- `PreCompact`
+- `PostCompact`
+- `TaskCompleted`
 
 ## Behavior
 

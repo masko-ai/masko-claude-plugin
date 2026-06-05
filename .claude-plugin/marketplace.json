@@ -1,7 +1,7 @@
 {
   "name": "masko-claude-plugins",
   "description": "Claude plugins from Masko.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "owner": {
     "name": "Masko",
     "email": "hello@masko.ai"
@@ -12,7 +12,7 @@
       "displayName": "Masko for Claude",
       "source": "./plugins/masko-for-claude",
       "description": "Forwards Claude Cowork lifecycle hooks to Masko Desktop so mascots can react while you work.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Masko",
         "email": "hello@masko.ai"

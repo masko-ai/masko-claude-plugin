@@ -20,7 +20,15 @@ It currently listens for:
 
 - `SessionStart`
 - `UserPromptSubmit`
+- `PreToolUse`
+- `PermissionRequest`
+- `PostToolUse`
+- `PostToolUseFailure`
 - `Stop`
+- `StopFailure`
+- `PreCompact`
+- `PostCompact`
+- `TaskCompleted`
 
 ## Requirements
 
