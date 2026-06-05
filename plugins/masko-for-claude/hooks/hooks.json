@@ -113,8 +113,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'",
-            "async": true
+            "command": "bash -lc '\"$HOME/.masko-desktop/hooks/hook-sender\" --source claude-cowork'"
           }
         ]
       }
