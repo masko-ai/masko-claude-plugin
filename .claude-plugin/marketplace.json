@@ -1,7 +1,7 @@
 {
   "name": "masko-claude-plugins",
   "description": "Claude plugins from Masko.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "owner": {
     "name": "Masko",
     "email": "hello@masko.ai"
@@ -11,8 +11,8 @@
       "name": "masko-for-claude",
       "displayName": "Masko for Claude",
       "source": "./plugins/masko-for-claude",
-      "description": "Forwards supported Claude Cowork lifecycle hooks to Masko Desktop so mascots can react while you work.",
-      "version": "1.0.0",
+      "description": "Masko no longer supports Claude Cowork. This plugin does nothing; uninstall it from Customize > Plugins.",
+      "version": "1.1.0",
       "author": {
         "name": "Masko",
         "email": "hello@masko.ai"

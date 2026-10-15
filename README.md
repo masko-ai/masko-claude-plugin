@@ -1,46 +1,11 @@
 # Masko for Claude
 
-This repository is the Claude plugin marketplace for Masko.
+Masko no longer supports Claude Cowork. Claude now runs Cowork tasks in the
+cloud, where they cannot reach Masko on your Mac.
 
-## Install
+If you installed **Masko for Claude**, uninstall it from **Customize** >
+**Plugins** in Claude. Version 1.1.0 has no hooks, so it does nothing until you
+remove it.
 
-In Claude, open **Customize** > **Plugins** > **+** > **Add marketplace**, then add:
-
-```text
-masko-ai/masko-claude-plugin
-```
-
-Install **Masko for Claude** from the marketplace.
-
-## What It Does
-
-The plugin forwards Claude Cowork lifecycle hooks to Masko Desktop so your mascot can react while you work.
-
-It currently listens for:
-
-- `SessionStart`
-- `UserPromptSubmit`
-- `PreToolUse`
-- `PermissionRequest`
-- `PostToolUse`
-- `PostToolUseFailure`
-- `Stop`
-- `StopFailure`
-- `PreCompact`
-- `PostCompact`
-- `TaskCompleted`
-
-## Requirements
-
-- Masko Desktop installed and running
-- Claude Cowork
-
-Claude normal chat can install plugins, but hooks run in Claude Cowork.
-
-## Privacy
-
-The hook script forwards Claude hook payloads to the local Masko Desktop listener on your machine. It does not include any Masko secrets or API keys.
-
-If Masko Desktop is not installed or the local hook sender is missing, the hook exits without doing anything.
-
-`PermissionRequest` is intentionally synchronous so Masko can test returning an allow or deny decision to Cowork. All other hooks run asynchronously.
+Masko still follows Claude Code, including local sessions in the Claude Desktop
+Code tab. Set it up from Masko for Mac: https://masko.ai

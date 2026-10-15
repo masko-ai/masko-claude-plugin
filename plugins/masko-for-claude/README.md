@@ -1,3 +1,3 @@
 # Masko for Claude
 
-Forwards supported Claude Cowork lifecycle hooks to Masko Desktop so mascots can react while you work.
+Masko no longer supports Claude Cowork. This plugin does nothing; uninstall it from Customize > Plugins.
